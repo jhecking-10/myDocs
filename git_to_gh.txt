@@ -4,11 +4,13 @@
 
 2. Before anything can be uploaded to GitHub, a new repo must be created there
 
-	- both README and .gitignore files can be created here
+	- both README and .gitignore files can be created simultaneously
 
-3. This repo can't be accessed until running the command: git remote add origin <link>
+3. This repo can't be accessed until running the command: git remote add origin <repo_link>
 
-	- to ensure this worked, run: git ls-remote
+	- link is provided upon repo creation
+
+	- to ensure it worked as expected, run: git ls-remote
 
 	- once the repo link has been added as "origin", it's then possible to send changes with: git push origin main
 
@@ -32,4 +34,5 @@ On the contrary, we can do the opposite if changes are made on GitHub or have co
 
 	- this effectively downloads the new commit(s) and merges into the current local branch
 
-	- git pull origin main is essentially using the fetch and merge commands at the same time
+	- git pull origin main essentially uses the fetch and merge commands at the same time
+
