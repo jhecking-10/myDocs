@@ -13,7 +13,23 @@
 	- once the repo link has been added as "origin", it's then possible to send changes with: git push origin main
 
 4. Before pushing, changes must be staged and committed with:
+
 	- git add <file(s)>
+
 	- git commit -m "message"
 
 5. Only then can we run: git push origin main
+
+On the contrary, we can do the opposite if changes are made on GitHub or have come from someone else
+
+1. Ensure the GitHub repo exists according to the above steps
+
+2. Commit changes on GitHub itself
+
+	- the local machine won't know about this yet
+
+3. For retrieval, run this command in your terminal: git pull origin main
+
+	- this effectively downloads the new commit(s) and merges into the current local branch
+
+	- git pull origin main is essentially using the fetch and merge commands at the same time
