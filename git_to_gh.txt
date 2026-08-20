@@ -1,0 +1,19 @@
+# This is a step-by-step reference guide for daily use of Git and GitHub
+
+1. Each project directory must first be initialized with: git init
+
+2. Before anything can be uploaded to GitHub, a new repo must be created there
+
+	- both README and .gitignore files can be created here
+
+3. This repo can't be accessed until running the command: git remote add origin <link>
+
+	- to ensure this worked, run: git ls-remote
+
+	- once the repo link has been added as "origin", it's then possible to send changes with: git push origin main
+
+4. Before pushing, changes must be staged and committed with:
+	- git add <file(s)>
+	- git commit -m "message"
+
+5. Only then can we run: git push origin main
