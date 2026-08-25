@@ -22,9 +22,11 @@
 
 5. Only then can we run: git push origin main
 
-On the contrary, we can do the opposite if changes are made on GitHub or have come from someone else
+# On the contrary, we can do the opposite if changes are made on GitHub or have come from someone else
 
 1. Ensure the GitHub repo exists according to the above steps
+
+	- when pulling to a new system, remember that the remote must still be added 
 
 2. Commit changes on GitHub itself
 
