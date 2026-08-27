@@ -26,7 +26,9 @@
 
 1. Ensure the GitHub repo exists according to the above steps
 
-	- when pulling to a new system, remember that the remote must still be added 
+	- when pulling to a new system, remember that the remote must still be added
+
+	- run this command to get a repo NOT already on your system: git clone <link> 
 
 2. Commit changes on GitHub itself
 
