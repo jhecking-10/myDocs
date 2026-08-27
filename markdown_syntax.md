@@ -8,4 +8,4 @@ Common syntax:
     - **double asterisks** for bold
     - ident by four spaces to create a list
         - dashes or asterisks can be used for unordered lists while numbers are for ordered ones
-    - square brackets immediately followed by parentheses will create a hyperlink (i.e. []())
+    - square brackets immediately followed by parentheses will create a hyperlink
